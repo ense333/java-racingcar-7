@@ -61,5 +61,9 @@
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; moveCars 메서드 내에는 Car 클래스에서 정의했던 playCar 메서드를 통해 랜덤값을 이용하여 움직인다.
 
-### 7. RacingProgram 클래스에 이전에 받은 게임 수행 횟수만큼 게임을 진행한다.
+### 7. RacingProgram 클래스에 위에서 진행한 gameStart를 통해 경주가 완료된 차량들에 대해 gameResult 메서드로 최종 결과를 출력한다.
+
+  ####  &nbsp;&nbsp;&nbsp;&nbsp;7-1. gameResult 내에서 getMaxDistance 메서드를 통해 가장 많이 이동한 거리값을, getWinnerIfMaxDistance 와 printWinnerName 메서드를 통해 최종 결과값을 출력한다.
+
+  ####  &nbsp;&nbsp;&nbsp;&nbsp;7-2. 위에서 작성한 코드의 테스트를 위해 Car에 생성자 추가 및 테스트 코드를 작성한다. 
 
